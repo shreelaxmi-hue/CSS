@@ -1,0 +1,57 @@
+
+#e{
+    background-color: blueviolet;
+    display: inline;
+}
+
+button{
+    display: block;
+}
+
+
+
+/* Display Property 
+display:inline/block/inline-block/none
+inline-takes required space
+block-Takes full space like button
+inline-block
+*/
+
+
+#a, #b, #c{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 25px;
+    display:inline-block; /* similar to inline but here we can set margin and padding */
+}
+
+#a{
+     background-color: blue;
+}
+
+#b{
+     background-color:aquamarine;
+}
+
+#c{
+     background-color:blueviolet
+}
+
+/*1. **`inline` ignores `width` and `height`; use `inline-block` if you need both.**
+2. **`display` affects only the selected element, not its child elements.**
+3. **Use `id` for one element and `class` for multiple elements.**
+4.in display if used none no display and no space left there but in visbility : hidden ; , space is there but no display 
+*/
+
+#d{
+    background-color:rgb(122, 63, 63);
+    height: 100px;
+    width:100px;
+}
+
+/* Use a hex color , background-color: #7a3f3f;
+   Use rgb() with numbers, background-color: rgb(122, 63, 63);
+   Use a color name, background-color: brown;
+*/

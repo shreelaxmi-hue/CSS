@@ -1,0 +1,34 @@
+div{
+    height:50px;
+    width:50px;
+    background-color:coral
+}
+
+@media (width:600px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(max-width:600px){
+    div{
+        background-color:aquamarine;
+    }
+}
+
+@media (min-width:200px) and (max-width:300px){
+    div{
+        background-color:blue;
+    }
+}
+
+#a{
+    height:100px;
+    width:100px;
+    background-color:bisque;
+    border:2px solid blue;
+}
+
+#a:hover{
+    background-color:red;
+}

@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction: row;
+    /* flex items always comes fits or adjust in container ,
+     dont goes beyond the container except font size of box allows */ 
+    justify-content: center;
+    /*flex-start/flex-end/centre/space-evenly/space-between/space
+    flex-wrap:nowrap/wrap/wrap-reverse in multiple lines
+    align-items:alignmnet slong the cross axis
+    align-content:alignment of space between & around the content along cross-axis
+    */
+    flex-wrap:wrap;
+}
+
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: blanchedalmond;
+}
+
+#box3{
+    background-color: pink;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: gold;
+}

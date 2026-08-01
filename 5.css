@@ -1,0 +1,28 @@
+#box1{
+    height:100px;
+    width: 300px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50vh; /* view port height means screen height */
+    width: 30%;
+    background-color: yellow;
+    margin-left: 20%;
+    font-size:2em;
+    /* em 2 times greater then parent font size , it can equal or less*/
+    width: 5em;
+    /* its individual font size no connection to parent */
+}
+
+#box3{
+    background-image: url("cute cat.jpg");
+    background-size: auto;
+    width:100px;
+    height:100px;
+    /* background-size :cover/contain/auto 
+    contain means repeat image, also has no-repeat value
+    auto means by default
+    */
+}

@@ -1,0 +1,103 @@
+h2{
+    color:rgb(149, 78, 78);
+}
+/* rgb red green blue , can give range 0-255, 0 means no color
+/* external styling */
+/* h2 selector, color property, reg value */
+/* color property is used to text button link for foreground */
+
+button{
+    color:rgb(69, 69, 211);
+    background-color: yellow;
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+    text-decoration:none ;
+}
+
+/* Hexa means 6 and decimal means 10 so hexadecimal means 16 */
+/* line-through is line on words */
+/* In hexadecimal 00 means 0 and ff means 255 of rgb */
+/* Example rgb(00, 255, 00); ,in hexadecimal  #00ff00 */
+/* For hexadecimal coloring # is important else it dont execute */
+
+/* types of selector: universal *, element <h1>, id <h1 id="head"> --</h1>, class .myclass{},
+ The hashtag '#' is an id selector used to target a single specific element with a unique id */
+
+/* Text align :right,left,center , in that start = left value and end = right value */
+/* Text decoration overline, underline, line through and u can give none ,but exist only 3 types */
+
+/* 100 - 900 font weight range ,100 light and 900 dark and normal/bold/bolder/lighter */
+
+p{
+    text-align:center
+}
+
+h3{
+    text-align: left;
+}
+
+/* units in css */
+/* Absolute and Relative in px */
+
+
+#one{
+    font-size: 25px;
+    line-height:normal;
+    text-transform:uppercase;
+}
+
+#two{
+    font-size: medium;
+}
+
+#three{
+    font-size:larger;
+}
+
+/* text-platform: uppercase/lowercase/capitalize/none */
+
+#five{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 20px;
+    width:100px;
+    height:30px;
+    background-color:blueviolet;
+    border-color: blue;
+    border-width: 10px;
+    border-style: dotted;
+    justify-content:center;
+    align-content: center;
+}
+
+/* border: to set elements border 
+border-width: 2px;
+border-style: solid/ dotted/dashed
+border-color: black;
+border: 2px solid brown; // all in one width,style,color
+*/
+
+#box{
+    height:100px;
+    width:100px;
+    background-color: burlywood;
+    border: 2px solid brown;
+    text-align: right;
+    border-radius: 5px; /* border radius is round at edge on border , if circle make 50%,in border radius two types px and % */
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* padding: 20px 10px 10px 20px; at once top right bottom left */
+    margin:25px;
+    /* margin outside the box space and padding means inside box around elements */
+}
